@@ -49,7 +49,7 @@ options:
 As a first step, you have to get a known-good list of hashes. This can be accomplished in two ways:
 
 1. Execute the `diagnose sys filesystem hash` command on a FortiGate and save the output to a file
-   1. If you use this method, copy all contents starting with the initial prompt where the command is. This way, the hostname will be taken directly from the output, but you can also supply a hostname directly to the script **and the supplied hostname will always take priority***.
+   1. If you use this method, copy all contents starting with the initial prompt where the command is. This way, the hostname will be taken directly from the output, but you can also supply a hostname directly to the script **and the supplied hostname will always take priority**.
    2. This output is considered "raw" for this script.
    3. Example of a file with raw content:
 ```
