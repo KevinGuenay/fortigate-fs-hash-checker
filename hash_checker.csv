@@ -1,0 +1,3 @@
+fortigate,username,password,ssh_port,fortigate_hostname,input_old,input_new,output
+192.168.1.201,admin,admin,22,70G-01,/tmp/hash_checker/hash_old_01.json,/tmp/hash_checker/hash_new_01.json,/tmp/hash_checker
+192.168.1.202,admin,admin,22,70G-02,/tmp/hash_checker/hash_old_02.json,/tmp/hash_checker/hash_new_02.json,/tmp/hash_checker
