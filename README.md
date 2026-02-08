@@ -4,7 +4,7 @@ Created and maintained by Kevin Guenay at <https://guenay.at>
 
 A FortiGate best practice is to [periodically check the hashes of the FortiGate filesystem with known-good values](https://community.fortinet.com/t5/FortiGate/Technical-Tip-Best-practice-Periodically-do-FortiGate-files/ta-p/322502). Changes in hashes can be Indicators of Compromise (IoC). This comparison is a manual task, and the FortiGate filesystem hash checker is supposed to make this easier by doing the comparison using a script where you have to supply a known-good list of hashes and either a new list or credentials so the script can get the new list via an SSH connection. The script can be used for a single FortiGate or for a CSV file to handle multiple FortiGates.
 
-Please read the associated blog post for some more information.
+Please read the [associated blog post](https://blog.guenay.at/2026/02/08/introducing-the-fortigate-filesystem-hash-checker/) for some more information.
 
 ## Requirements
 
